@@ -1,7 +1,7 @@
 from rest_framework import generics, viewsets
 
-from .serializers import CourseSerializer, LessonSerializer
 from .models import Course, Lesson
+from .serializers import CourseSerializer, LessonSerializer
 
 
 # Create your views here.

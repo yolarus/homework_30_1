@@ -1,7 +1,8 @@
 from django.urls import path
-from .apps import MypediaConfig
-from . import views
 from rest_framework.routers import DefaultRouter
+
+from . import views
+from .apps import MypediaConfig
 
 app_name = MypediaConfig.name
 
